@@ -1,0 +1,175 @@
+body 
+    {
+        margin: 0px;
+    }
+
+.main
+    {
+        height: 200px;
+    }
+
+.navigation
+    {
+        height:50px;
+        /* width: 100%; */
+        background-color: #2874f2;
+        display: flex;
+        padding-left: 300px;
+        padding-right: 300px;
+        align-items: center;
+        gap: 20px;
+    }
+
+.flipkart-logo
+    {
+        width: 100px;
+    }
+
+.search_logo 
+    {
+        width: 22px;
+    }
+
+.search-bar
+    {
+        display: flex;
+        align-items: center;
+    }
+
+.search-tab
+    {
+        width:350px;
+        height: 20px;
+    }
+
+.search_logo
+    {
+        height: 17px;
+        width: 18px;
+    }
+
+input
+    {
+        width:15px;
+        border: solid 1px white;
+    }
+
+.navbar_rhs 
+    {
+        display: flex;
+        gap: 20px;
+  
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        padding-left: 200px;
+    }
+  
+.search_btn 
+    {
+        background-color: white;
+        border: solid 1px white;
+    }
+
+.title
+    {
+        text-align: center;
+        margin-top:80px;
+        margin-bottom:80px;
+    }
+
+.product
+    {
+        display: grid;
+        margin-right: 25px;
+        margin-left: 25px;
+        grid-template-columns: 400px 400px 400px;
+        text-align: center;
+    }
+
+.product_img
+    {
+        width: 150px;
+        height: 300px;
+    }
+
+#product_image
+    {
+        width: 200px;
+    }
+
+#product-rating
+    {
+        background-color: green;
+        color:white;
+        margin-top: 10px;
+        width:55px;
+    }
+
+.products-div
+    {
+        padding: 2px;
+    }
+
+
+/* Stylesheet for contents of product.html */
+
+.product-details
+    {
+        display: flex;
+        height: 800px;
+        /* border:2px solid black; */
+        margin-left: 300px;
+        margin-right:300px;
+        margin-top:30px;
+    }
+
+.product-lhs
+    {
+        height: 750px;
+        width:500px;
+    }
+
+.product-rhs
+    {
+        height: 750px;
+        width: 850px;
+        margin-left: 15px;
+    }
+
+.buy_buttons
+    {
+        display: flex;
+        height: 50px;
+    }
+
+.add
+    {
+        width:50%;
+        font-size: 150%;
+        color:white;
+        border: none;
+        background-color: #ff9f00;
+    }
+
+.buy
+    {
+        width:50%;
+        font-size: 150%;
+        color:white;
+        border: none;
+        background-color: #fb641b;
+    }
+
+.prod-pic
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+.prod-info
+    {
+        font-size: 40px;
+        font-weight: bold;
+    }
