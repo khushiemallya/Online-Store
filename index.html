@@ -104,30 +104,26 @@
             var price = document.createElement("p");
             price.innerText = products[i].price;
 
+            products_div.onclick = function () 
+                {
+                    showProduct(products[i]);
+                };
 
-            products_div.onclick = function()
+            function showProduct(product) 
                 {
-                    showProduct(products [i])
-                }
-            
-            function showProduct(product)
-                {
-                    console.log('product:', product);
-                    localStorage.setItem("clicked_product", JSON.stringify(product)); 
-                    window.location.href='product.html'
+                    console.log("product:", product);
+                    localStorage.setItem("clicked_product", JSON.stringify(product));
+                    window.location.href = "product.html";
                 }
 
             products_div.append(img, title, rating, price);
             div.append(products_div);
         }
 
-            
-    const button = document.querySelector(".search_btn")
-    button.addEventListener("click", function()
+    const button = document.querySelector(".search_btn");
+    button.addEventListener("click", function () 
         {
-            console.log("hello")
-        })
+        console.log("hello");
+        });
   </script>
 </html>
-
-
